@@ -1,4 +1,85 @@
 
+.logo {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  padding-right: #;
+}
+
+.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  color: white;
+}
+
+span nav {
+  padding: #;
+}
+
+.products {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.product span {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
 @media only screen and (max-width: 1024px) {
 
 }
